@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+            android:title="@string/weather_location">
+        <SwitchPreference
+                android:key="USE_DEVICE_LOCATION"
+                android:title="@string/use_device_location"
+                android:summary="@string/use_device_location_describe"
+                android:defaultValue="true"
+                android:disableDependentsState="true"/>
+        <EditTextPreference
+                android:key="CUSTOM_LOCATION"
+                android:title="@string/Location"
+                android:summary="@string/custom_location_summary"
+                android:defaultValue="Lviv"
+                android:dependency="USE_DEVICE_LOCATION"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="Units">
+        <ListPreference
+                android:key="UNIT_SYSTEM"
+                android:title="Unit system"
+                android:summary="%s"
+                android:defaultValue="METRIC"
+                android:entries="@array/unitSystemEntries"
+                android:entryValues="@array/unitSystemValues"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
