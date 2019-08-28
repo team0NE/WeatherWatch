@@ -18,4 +18,8 @@
         <item name="android:textColorSecondary">#EEE</item>
     </style>
 
+    <style name="SplashActivityTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">@color/colorBlue</item>
+    </style>activity_splash.xml
+
 </resources>

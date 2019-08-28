@@ -1,0 +1,12 @@
+package on.team.weatherwatch.utils
+
+const val API_KEY = "9e0ac310ee664a9da0a103608190108"
+const val UNIT_SYSTEM = "UNIT_SYSTEM"
+const val WEATHER_LOCATION_ID = 0
+const val CURRENT_WEATHER_ID = 0
+const val FUTURE_DAYS_COUNT = 7
+
+const val USE_DEVICE_LOCATION = "USE_DEVICE_LOCATION"
+const val CUSTOM_LOCATION = "CUSTOM_LOCATION"
+
+const val MY_PERMISSION_ACCESS_COARSE_LOCATION = 1

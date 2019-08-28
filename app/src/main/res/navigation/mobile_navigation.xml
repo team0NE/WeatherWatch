@@ -5,19 +5,19 @@
             app:startDestination="@id/currentWeatherFragment">
 
     <fragment android:id="@+id/currentWeatherFragment"
-              android:name="on.team.weatherium.ui.weather.current.CurrentWeatherFragment"
+              android:name="on.team.weatherwatch.ui.weather.current.CurrentWeatherFragment"
               android:label="current_weather_fragment" tools:layout="@layout/current_weather_fragment"/>
     <fragment android:id="@+id/futureListWeatherFragment"
-              android:name="on.team.weatherium.ui.weather.future.list.FutureListWeatherFragment"
+              android:name="on.team.weatherwatch.ui.weather.future.list.FutureListWeatherFragment"
               android:label="future_list_weather_fragment" tools:layout="@layout/future_list_weather_fragment">
         <action android:id="@+id/actionDetail"
                 app:destination="@id/futureDetailWeatherFragment"/>
     </fragment>
     <fragment android:id="@+id/futureDetailWeatherFragment"
-              android:name="on.team.weatherium.ui.weather.future.detail.FutureDetailedWeatherFragment"
+              android:name="on.team.weatherwatch.ui.weather.future.detail.FutureDetailedWeatherFragment"
               android:label="future_detail_weather_fragment" tools:layout="@layout/future_detail_weather_fragment">
         <argument android:name="dateString" app:argType="string"/>
     </fragment>
-    <fragment android:id="@+id/settingsFragment" android:name="on.team.weatherium.ui.settings.SettingsFragment"
+    <fragment android:id="@+id/settingsFragment" android:name="on.team.weatherwatch.ui.settings.SettingsFragment"
               android:label="SettingsFragment"/>
 </navigation>

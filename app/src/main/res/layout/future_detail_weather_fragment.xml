@@ -18,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/margin_8dp"
-            app:constraint_referenced_ids="detailed_progressBar_loading, detailed_textView_loading"
+            app:constraint_referenced_ids="detailed_progressBar_loading,detailed_textView_loading"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
     <ProgressBar
@@ -93,7 +93,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/margin_8dp"
-            android:layout_marginEnd="@dimen/margin_8dp"
             android:layout_marginBottom="@dimen/margin_8dp"
             android:textAppearance=
                     "@style/TextAppearance.MaterialComponents.Headline2"
